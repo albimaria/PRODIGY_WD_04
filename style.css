@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:#100c08 ;
+}
+.hero{
+    position: relative;
+    width: 100%
+    height: 100vh;
+    background:#100c08;
+ }
+ nav{
+    display: flex;
+    width: 84%;
+    margin:0%;
+    margin-top: 0%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+ } 
+
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    color: white;
+ }
+
+ nav ul li a:hover{
+    color: antiquewhite;
+ }   
+
+ .detail{
+    margin-left:8%;
+    margin-top: 13%;
+ }
+
+ .detail h1{
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+ }
+
+ span{
+    color: rgb(211, 142, 57);
+ }
+
+ .detail p{
+    color: bisque;
+    line-height: 22px;
+ }
+
+ .detail a{
+    background: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+ }
+
+ .detail a:hover{
+   background: rgb(211, 210, 114);
+ }
+
+ .images{
+    width: 45%;
+    height: 65%;
+    position: absolute;
+    bottom: 0;
+    right: 100px
+ }
+
+ .images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+ }
+
+ .images:hover .girl{
+   left: 45%;
+ }
+
+ 
